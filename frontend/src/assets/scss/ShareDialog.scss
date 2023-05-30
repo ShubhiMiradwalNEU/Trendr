@@ -1,0 +1,32 @@
+.share-dialog {
+
+    .share-title {
+        // Custom styles for the ShareTitle
+        font-weight: bold;
+        font-size: 22px;
+        color: #000000;
+        padding-left: 35%;
+    }
+
+    .share-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+        margin-top: 16px;
+
+        button {
+            cursor: pointer;
+        }
+    }
+
+    .copy-link {
+        display: flex;
+        justify-content: center;
+        margin-top: 16px;
+
+        button {
+            cursor: pointer;
+        }
+    }
+}
